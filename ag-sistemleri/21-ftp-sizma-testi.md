@@ -25,7 +25,17 @@ PORT   STATE SERVICE
 
 ### Versiyon Tespiti
 
-![](../.gitbook/assets/ftp.gif)
+#### NMAP ile Versiyon Tespiti
 
+```text
+nmap -p 21 -sV 192.168.1.1
+```
 
+#### Metasploit ile Versiyon Tespiti
+
+```text
+use auxiliary/scanner/ftp/ftp_version
+set rhosts 192.168.1.1
+exploit
+```
 

@@ -23,5 +23,9 @@ PORT   STATE SERVICE
 21/tcp open  ftp
 ```
 
+### Versiyon Tespiti
+
+![](../.gitbook/assets/ftp.gif)
+
 
 
